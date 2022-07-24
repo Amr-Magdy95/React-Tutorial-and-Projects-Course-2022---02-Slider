@@ -9,9 +9,11 @@ function App() {
   const [index, setIndex] = useState(0);
 
   return (
-    <section>
-      <div>Reviews</div>
-      <div>Slider</div>
+    <section className='section'>
+      <div className='title'>
+        <h2> <span>/</span> Reviews</h2>
+      </div>
+      <div className='section-center'>Slider</div>
       
     </section>
   );
